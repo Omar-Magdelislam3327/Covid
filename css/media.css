@@ -1,0 +1,491 @@
+@media(max-width:992px){
+   
+    .main1 .about{
+        margin-left: 50px;
+    }
+    .main1 .ques{
+        margin-left: 50px;
+    }
+    .main3 .symp .btn3{
+        width: 50%;
+        margin: auto;
+    }
+    .main5 .steps .steps-row .step{
+        margin-right: 3px;
+    }
+    .main9 .blog .cards{
+        width: 90%;
+        margin: auto;
+    }
+}
+@media(max-width:776px){
+    header .navbar{
+        width: 100%;
+        padding: 0px 15px;
+    }
+    
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    header .navbar .links , header .navbar .btn1 button{
+        
+        display: none;
+    }
+    header .navbar .bars{
+        display: block;
+        
+    }
+   
+    .home .container{ 
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .home .container .head-text{
+        width: 100%;
+    }
+   
+    .home .container .home-image{
+        width: 50%;
+        margin: auto;    
+        padding-top: 20px;
+    }
+    
+    .main1{
+        width: 100%;
+        flex-wrap: wrap;
+
+    }
+    .main1 .about{
+        width: 90%;
+        margin: auto;
+        justify-content: center;
+        text-align: center;
+        padding-bottom: 40px;
+    }
+    
+    .main1 .ques{
+        justify-content: center;
+        width: 80%;
+        text-align: center;
+    }
+    .main2 .spread{
+        width: 100%;
+    }
+    .main2 .spread .cards{
+        flex-wrap: wrap;
+    }
+    .main2 .spread .cards .card{
+        width: 60%;
+        margin-bottom: 30px;
+    }
+    .main3 .symp .btn3{
+        width: 80%;
+        margin: auto;
+    }
+    .main3 .symp{
+        width: 100%;
+
+    }   
+    .main3 .symp .cards{
+        flex-wrap: wrap;
+    }
+    .main3 .symp .cards .card{
+        width: 60%;
+        margin-bottom: 30px;
+    }
+    .main3 .symp .row{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 90%;
+        margin: auto;
+    }
+    .main3 .symp .row .row-txt{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .main4 .protect{
+        width: 100%;
+
+    }   
+    .main4 .protect .cards{
+        flex-wrap: wrap;
+    }
+    .main4 .protect .cards .carde{
+        width: 40%;
+        margin-bottom: 30px;
+    }
+    .main4 .protect .protect-txt p{
+        width: 60%;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    .main4 .protect .cards{
+        flex-wrap: wrap;
+    }
+    .main4 .protect .btn4{
+        width: 95%;
+        margin: auto;
+    }
+    .main4 .protect .btn4 button{
+        align-items: center;
+    }
+    .main5 .box{
+        width: 100%;
+    }
+    .main5 .container{
+        width: 90%;
+    }
+    .main5 .box .container .content{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .main5 .box .container .content .content-txt{
+        width: 100%;
+    }
+    .main5 .box .container .content .content-img{
+        width: 100%;
+    }
+    .main5 .steps .steps-row{
+        width: 95%;
+    }
+    
+    .main5 .steps .steps-row .step{
+    width: 48%;
+        & img{
+            height: 150px;
+            border: none;
+            border-radius: 100px;
+        }
+    
+    }
+    .main6 .container{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .main6 .container .txt{
+        width: 95%;
+        text-align: center;
+        font-size: 22px;
+        
+    }
+    .main6 .container .box{
+        width: 95%;
+        font-size: 20px;
+    }
+    .main7 .do{
+        width: 100%;
+    }
+    .main7 .do .container .col{
+        flex-wrap: wrap;
+        
+    }
+    .main7 .do .container .col1{
+        width: 90%;
+        
+    }
+    .main7 .do .container .col2{
+        width: 90%;
+        
+    }
+    .main7 .do .container .col3{
+        width: 90%;
+        
+    }
+    .main8 .faq{
+        width: 100%;
+    }
+    .main8 .faq .boxes{
+        flex-wrap: wrap;
+        & .box1{
+            width: 70%;
+        }
+        & .box2{
+            width: 80%;
+        }
+    }
+    .main9 .blog{
+        width: 100%;
+    }
+    .main9 .blog .cards{
+        flex-wrap: wrap;
+    }
+    .main9 .blog .carde{
+        width: 70%;
+    }
+    .main9 .blog .title{
+        text-align: center;
+        & h5{
+            margin-bottom: 20px;
+            font-size: 15px;
+        }
+        & h2{
+            margin-bottom: 20px;
+            font-size: 40px;
+        }
+    }
+    footer .container{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    footer .container .col1 , footer .container .col2 , footer .container .col3 , footer .container .col4{
+        width: 50%;
+    }
+
+}
+@media(max-width:576px){
+    header .navbar{
+        width: 100%;
+        padding: 0px 15px;
+    }
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    header .navbar .links , header .navbar .btn1 button{
+        
+        display: none;
+    }
+    header .navbar .bars{
+        display: block;
+        
+    }
+
+    .home{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .home .container .head-text .header-row h1{
+        font-size: 80px;
+    }
+    .home .container .head-text .header-txt h4{
+        font-size: 50px;
+    }
+    .home .stats{
+        /* padding-top: 58px; */
+        flex-wrap: wrap;
+        & .stat{
+            width: 70%;
+            margin: auto;
+            & h4{
+                font-size: 20px;
+                padding: 10px 0px;
+            }
+        }
+    }
+    .home .container .home-image{
+        width: 70%;
+        margin: auto;    
+        padding-top: 20px;
+    }
+    .home .header-row{
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+        margin-right: 150px;
+
+        
+
+    }
+    .home .container .head-text p{
+        width: 80%;
+        margin: auto;
+        text-wrap: pretty;
+    }
+    .home .links{
+        padding-top: 20px;
+        /* flex-wrap: wrap; */
+        & .link1{
+            width: 80%;
+            margin-bottom: 50px;
+            margin: auto;
+        }
+        & .link2{
+            width: 80%;
+            margin: auto;
+        }
+    }
+    
+    .main1{
+        width: 100%;
+        flex-wrap: wrap;
+
+    }
+    .main1 .about{
+        width: 80%;
+        margin: auto;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .main1 .ques{
+        width: 80%;
+        margin: auto;
+        
+    }
+    .main2 .spread{
+        width: 100%;
+    }
+    .main2 .spread .cards{
+        flex-wrap: wrap;
+    }
+    .main2 .spread .cards .card{
+        width: 60%;
+        margin-bottom: 30px;
+    }
+    .main3 .symp{
+        width: 100%;
+
+    }   
+    .main3 .symp .cards{
+        flex-wrap: wrap;
+    }
+    .main3 .symp .cards .card{
+        width: 60%;
+        margin-bottom: 30px;
+    }
+    .main3 .symp .row{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 90%;
+        margin: auto;
+    }
+    .main3 .symp .btn3{
+        width: 95%;
+        margin: auto;
+    }
+    .main3 .symp .btn3 button{
+        align-items: center;
+
+    }
+    .main4 .protect{
+        width: 100%;
+
+    }   
+    .main4 .protect .cards{
+        flex-wrap: wrap;
+    }
+    .main4 .protect .cards .carde{
+        width: 60%;
+        margin-bottom: 30px;
+    }
+    .main4 .protect .btn4{
+        width: 95%;
+        margin: auto;
+    }
+    .main4 .protect .btn4 button{
+        align-items: center;
+        padding: 15px 10px;
+    }
+    .main5 .box{
+        width: 100%;
+    }
+    .main5 .container{
+        width: 95%;
+    }
+    .main5 .box .container .content{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .main5 .box .container .content .content-txt{
+        width: 100%;
+    }
+    .main5 .box .container .content .content-img{
+        width: 100%;
+    }
+    .main5 .steps .steps-row{
+        width: 95%;
+        margin: auto;
+        flex-wrap: wrap;
+    }
+    
+    .main5 .steps .steps-row .step{
+    width: 60%;
+        & img{
+            height: 150px;
+            border: none;
+            border-radius: 100px;
+        }
+    
+    }
+    .main6 .container{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .main6 .container .txt{
+        width: 95%;
+        text-align: center;
+        font-size: 22px;
+        
+    }
+    .main6 .container .box{
+        width: 95%;
+        font-size: 20px;
+    }
+    .main7 .do{
+        width: 100%;
+    }
+    .main7 .do .container .col{
+        flex-wrap: wrap;
+        width: 90%;
+        margin: auto;
+        
+    }
+    .main7 .do .container .col1{
+        width: 70%;
+        
+    }
+    .main7 .do .container .col2{
+        width: 70%;
+        
+    }
+    .main7 .do .container .col3{
+        width: 70%;
+        
+    }
+    .main8 .faq{
+        width: 100%;
+    }
+    .main8 .faq .boxes{
+        flex-wrap: wrap;
+        & .box1{
+            width: 80%;
+        }
+        & .box2{
+            width: 95%;
+        }
+    }
+    .main9 .blog{
+        width: 100%;
+    }
+    .main9 .blog .cards{
+        flex-wrap: wrap;
+    }
+    .main9 .blog .carde{
+        width: 70%;
+    }
+    .main9 .blog .title{
+        text-align: center;
+        & h5{
+            margin-bottom: 20px;
+            font-size: 15px;
+        }
+        & h2{
+            margin-bottom: 20px;
+            font-size: 40px;
+        }
+    }
+    footer .container{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    footer .container .col1 , footer .container .col2 , footer .container .col3 , footer .container .col4{
+        width: 50%;
+    }
+}
